@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+    Verde: #51DB74
+    Azul:  #51DB74
+    Verde-limão: #51DBA3
+*/
+
+@media screen and (min-width:992px) {
+
+    body{
+        background: linear-gradient(#51DB74, #51B9DB);   
+    }
+
+    section{
+        width: 80%;
+        height: 35%;
+    }
+    
+    div#imagem{
+        height: 100%;
+        width: 45%;
+        margin: auto;
+        margin-right: 0;
+        border-radius: 0px 10px 10px 0px;
+        background-attachment: fixed;
+    }
+
+    div#formulario{
+        width: 57%;
+        height: 100%;
+
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        left: -1%;
+    }
+
+    #caixauser, #caixasenha{
+        width: 90%;
+    }
+    
+    #iuser, #isenha{
+        width: 90%;
+    }
+}

@@ -20,7 +20,7 @@ html, body{
 }
 
 section{
-    max-width: 280px;
+    width: 280px;
     height: 500px;
     background-color: white;
 
@@ -58,10 +58,11 @@ form{
 }
 
 input{
-    width: 250px;
+    width: 90%;
     height: 35px;
     padding: 5px;
 
+    display: inline;
     margin-top: 5px;
 }
 
@@ -85,8 +86,10 @@ span.material-symbols-outlined{
 
 #iuser, #isenha{
     width: 200px;
-    border-radius: 5%; 
+    border-radius: 3%; 
     background-color: #51DBA3;  
+    border: none;
+
 }
 
 #entrar{
